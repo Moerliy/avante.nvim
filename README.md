@@ -24,9 +24,9 @@
 >
 > 🥰 This project is undergoing rapid iterations, and many exciting features will be added successively. Stay tuned!
 
-https://github.com/user-attachments/assets/510e6270-b6cf-459d-9a2f-15b397d1fe53
+<https://github.com/user-attachments/assets/510e6270-b6cf-459d-9a2f-15b397d1fe53>
 
-https://github.com/user-attachments/assets/86140bfd-08b4-483d-a887-1b701d9e37dd
+<https://github.com/user-attachments/assets/86140bfd-08b4-483d-a887-1b701d9e37dd>
 
 ## Features
 
@@ -192,7 +192,7 @@ require('avante').setup ({
 
 > [!TIP]
 >
-> Any rendering plugins that support markdown should work with Avante as long as you add the supported filetype `Avante`. See https://github.com/yetone/avante.nvim/issues/175 and [this comment](https://github.com/yetone/avante.nvim/issues/175#issuecomment-2313749363) for more information.
+> Any rendering plugins that support markdown should work with Avante as long as you add the supported filetype `Avante`. See <https://github.com/yetone/avante.nvim/issues/175> and [this comment](https://github.com/yetone/avante.nvim/issues/175#issuecomment-2313749363) for more information.
 
 ### Default setup configuration
 
@@ -448,7 +448,7 @@ If you have the following structure:
 ```
 
 - `typescript.planning.avanterules` will be used for `planning` mode
-- `snippets.editing.avanterules`` will be used for `editing` mode
+- `snippets.editing.avanterules`` will be used for`editing` mode
 - the default `suggesting` prompt from `avante.nvim` will be used for `suggesting` mode.
 
 </details>
