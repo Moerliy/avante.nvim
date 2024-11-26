@@ -89,6 +89,7 @@ jobs:
       # Step 1: Set up QEMU for multi-architecture support
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
+        if: ${{ matrix.config.arch == "aarch64" }}
         with:
           platforms: all
 
