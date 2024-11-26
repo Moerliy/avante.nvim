@@ -56,7 +56,7 @@ jobs:
             os_name: linux
             arch: aarch64
             rust_target: aarch64-unknown-linux-gnu
-            docker_platform: linux/arm64
+            docker_platform: linux/aarch64
             container: quay.io/pypa/manylinux2014_aarch64
           - os: ubuntu-latest
             os_name: linux
@@ -88,8 +88,8 @@ jobs:
 
       # Step 1: Set up QEMU for multi-architecture support
       - name: Set up QEMU
+        if: ${{ matrix.config.docker_platform == 'linux/aarch64' }}
         uses: docker/setup-qemu-action@v2
-        if: ${{ matrix.config.arch == "aarch64" }}
         with:
           platforms: all
 
