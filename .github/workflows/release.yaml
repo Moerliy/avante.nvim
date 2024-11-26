@@ -56,7 +56,7 @@ jobs:
             os_name: linux
             arch: aarch64
             rust_target: aarch64-unknown-linux-gnu
-            docker_platform: linux/arm/v7
+            docker_platform: linux/arm64
             container: quay.io/pypa/manylinux2014_aarch64
           - os: ubuntu-latest
             os_name: linux
